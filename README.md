@@ -81,3 +81,20 @@ npm run lint
 # Build for production
 npm run build
 ```
+
+## Deploying to Vercel
+
+`vercel.json` is preconfigured for Vite static deployment (`dist/` output with SPA routing).
+
+### Option A: Via GitHub (Recommended)
+1. Push this project to a GitHub repository.
+2. Go to [vercel.com](https://vercel.com), click **Add New → Project**, and import your repository.
+3. Keep the detected Vite settings (`Build Command: npm run build`, `Output Directory: dist`) and click **Deploy**.
+4. Vercel will assign a clean URL such as `https://meshscope-analyzer.vercel.app`. You can rename the project or attach a custom domain under **Settings → Domains**.
+
+### Option B: Via Vercel CLI
+```bash
+npm i -g vercel
+vercel --prod
+```
+
