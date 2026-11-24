@@ -1,0 +1,6 @@
+{
+  "name": "MeshScope",
+  "description": "Real-time Wireless Mesh Network Performance Analyzer monitoring latency, packet loss, throughput, interactive topology, automated alerts, and PDF diagnostic reports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
